@@ -8,7 +8,7 @@ export async function getMovieRecommendation(prompt) {
   const response = await ai.models.generateContent({
     model: "gemini-flash-latest",
     contents: `
-You are a movie recommendation assistant.
+You are an expert movie recommendation assistant.
 
 The user will describe their mood.
 
