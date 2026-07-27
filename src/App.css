@@ -1,0 +1,202 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.app{
+    width:90%;
+    margin:auto;
+}
+
+.title{
+    text-align:center;
+    margin:30px 0;
+}
+
+.movies{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(180px,1fr));
+    gap:20px;
+}
+
+.loading{
+    text-align:center;
+    margin-top:40px;
+}
+
+.error{
+    text-align:center;
+    color:red;
+    margin-top:20px;
+}
+.card{
+
+    background:#1d1d1d;
+
+    border-radius:10px;
+
+    overflow:hidden;
+
+}
+
+.card img{
+
+    width:100%;
+
+    display:block;
+
+}
+
+.card-info{
+
+    padding:10px;
+
+}
+
+.card h3{
+
+    font-size:16px;
+
+    margin-bottom:8px;
+
+}
+.search-box{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-bottom:30px;
+}
+
+.search-box input{
+    width:300px;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    outline:none;
+}
+
+.search-box button{
+    padding:10px 20px;
+    background:red;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.search-box button:hover{
+    background:#d40000;
+}
+.favorite-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background: crimson;
+  color: white;
+  cursor: pointer;
+}
+
+.favorite-btn:hover {
+  background: darkred;
+}
+.nav-button {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px 18px;
+  background: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.nav-button:hover {
+  background: darkred;
+}
+.mood-box {
+  width: 90%;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #1f1f1f;
+  border-radius: 10px;
+}
+
+.mood-box h2 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.mood-text {
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+
+.mood-box textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.mood-box button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.mood-box button:hover {
+  background: darkred;
+}
+.ai-result {
+  margin-top: 20px;
+  padding: 20px;
+  background: #2b2b2b;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+  line-height: 1.7;
+}
+
+.ai-result h1,
+.ai-result h2,
+.ai-result h3 {
+  margin-bottom: 15px;
+}
+
+.ai-result ol {
+  padding-left: 25px;
+}
+
+.ai-result ul {
+  padding-left: 20px;
+}
+
+.ai-result li {
+  margin-bottom: 15px;
+}
+
+.ai-result p {
+  margin: 8px 0;
+}
+
+.ai-result strong {
+  color: #ffffff;
+}
